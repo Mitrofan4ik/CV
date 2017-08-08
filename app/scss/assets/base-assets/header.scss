@@ -1,6 +1,10 @@
 /*header*/
 .site-header {
-    display: table-header-group;
-    height: 1px;
+    position: fixed;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 99999;
+    top: 0;
+    left: 0;
 }
 /*END:header*/

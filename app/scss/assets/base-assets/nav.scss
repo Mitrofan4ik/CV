@@ -1,14 +1,27 @@
 .navbar {
+	&-content {
+		height: 70px;
+		display: flex;
+	    align-items: center;
+	    justify-content: space-between;
+	}
 	&-header {
 
 	}
 	&-togle {
-
 	}
 	&-brand {
-
+		font-family: 'Comfortaa', cursive;
+		font-size: 25px;
+		font-weight: 400;
+		color: #fff;
+		.fa {
+			color: #fff;
+			
+		}
 	}
 }
+
 
 .navbar-collapse {
 
@@ -25,12 +38,17 @@
 }
 
 .navbar-list {
-	&__item {
 
+	display: flex;
+    align-items: center;
+    margin-bottom: 0;
+	&__item {
+		margin: 0 20px;
 	}
 	&__link {
-		font-family: font-family: 'Comfortaa', cursive;
-		font-size: 25px;
+		font-family: 'Comfortaa', cursive;
+		font-size: 20px;
+		color: #fff;
 	}
 	&.nav {
 
